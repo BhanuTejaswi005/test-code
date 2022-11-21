@@ -8,7 +8,7 @@ def valid(k):
 
 n = int(input())
 if n < len(valid_dig):
-    print(valid_dig[n-1])
+    print(valid_dig[n])
 else:
     count=len(valid_dig)
     k=valid_dig[-1]
